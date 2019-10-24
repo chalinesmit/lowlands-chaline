@@ -1,0 +1,210 @@
+/* style.cc heb ik alles uitgeprobeerd en alles gebruikt wat ik al ken en in mijn hoofd zit, als ik ergens geen oplossing op wist heb ik het een klasgenoot gevraagd of op www.w3schools.com. */
+/* Fonts */
+
+@font-face {
+    font-family: "bebasneue-regular";
+    src: url(./fonts/bebasneue-regular.ttf);
+}
+
+/* Navigatie */
+.ul1 {
+    background-color: #072EC2;
+    font-family: bebasneue-regular;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+a:hover {
+    color: #4CD066;
+    ;
+}
+
+.icoon {
+    width: 40px;
+}
+
+/* Body */
+body {
+    margin: 0px;
+    background-color: #072EC2;
+}
+
+video {
+    width: 100%;
+}
+
+/* Programma */
+
+.ul2 {
+    background-color: #072EC2;
+    font-family: bebasneue-regular;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 20px;
+}
+
+.section1 {
+    display: flex;
+    background-image: url(afbeeldingen/achtergrond.png);
+    margin: 20px;
+    padding: 30px;
+    overflow-x: scroll;
+}
+
+article {
+    background-color: #4CD066;
+}
+
+.img1 {
+    width: 500px;
+    margin: 30px;
+}
+
+h1 {
+    font-family: bebasneue-regular;
+    font-size: 40px;
+    margin: 30px;
+}
+
+p {
+    font-family: bebasneue-regular;
+    font-size: 16px;
+    color: white;
+    margin: 30px;
+}
+
+.icoon1 {
+    width: 20px;
+}
+
+.countdown {
+    width: 1385px;
+    margin: 30px;
+}
+
+input {
+    margin-left: 30px;
+    width: 200px;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CD066;
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+/* Nieuws */
+
+.img2 {
+    width: 610px;
+    margin: 30px;
+}
+
+/* Tame Impala */
+
+.section2 {
+    display: flex;
+    background-image: url(afbeeldingen/achtergrond.png);
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Footer */
+.ul3 {
+    background-color: #072EC2;
+    font-family: bebasneue-regular;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 20px;
+}
+
+.ul4 {
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+.logo {
+    width: 90px;
+}
+
+/* Media Queries */
+@media only screen and (max-width : 768px) {
+
+    /* Navigatie */
+
+    .ul1 {
+        font-size: 9px;
+    }
+
+    .icoon {
+        width: 5vw;
+        padding: 1px;
+        margin: -10px;
+    }
+
+    /* Programma */
+    .ul2 {
+        font-size: 14px;
+    }
+
+    .countdown {
+        width: 500px;
+        margin: 0px;
+    }
+
+    /* Tame Impala */
+    .section2 {
+        margin-right: 50px;
+
+    }
+
+    .article1 {
+        width: 100%;
+    }
+
+    .img3 {
+        width: 60vw;
+    }
+
+    /* Footer */
+    .ul3 {
+        font-size: 15px;
+    }
+
+    .ul4 {
+        padding: 40px;
+    }
+
+    .logo {
+        width: 10vw;
+        margin: -40px;
+        padding-bottom: 20px;
+    }
+
+
+}
